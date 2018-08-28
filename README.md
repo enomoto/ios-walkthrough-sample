@@ -1,6 +1,6 @@
 # iOS Walkthrough Sample
 
-this is the walkthrough screen sample app with a storyboard, no code.
+this is the walkthrough (UIScrollView + UIPageControl) screen sample app.
 
 # Created with
 
