@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Walkthrough View Controller-->
         <scene sceneID="1PL-fa-xOc">
             <objects>
-                <viewController storyboardIdentifier="Walkthrough" id="a6t-LF-a2V" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Walkthrough" id="a6t-LF-a2V" customClass="WalkthroughViewController" customModule="WalkthroughSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j47-Lt-08C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,6 +70,10 @@
                         <viewLayoutGuide key="safeArea" id="ETA-8s-wNF"/>
                     </view>
                     <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="pageControl" destination="7wH-ok-189" id="Vqw-IY-Mvm"/>
+                        <outlet property="scrollView" destination="ZFN-a0-KYX" id="6XC-E5-z81"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2J4-cq-lmk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

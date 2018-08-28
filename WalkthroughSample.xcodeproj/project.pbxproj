@@ -11,6 +11,7 @@
 		BEECD2FC21351D8E006F4411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEECD2FB21351D8E006F4411 /* Assets.xcassets */; };
 		BEECD2FF21351D8E006F4411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEECD2FD21351D8E006F4411 /* LaunchScreen.storyboard */; };
 		BEECD30721351E15006F4411 /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEECD30621351E15006F4411 /* Walkthrough.storyboard */; };
+		BEECD30B213522B0006F4411 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEECD30A213522B0006F4411 /* WalkthroughViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BEECD2FE21351D8E006F4411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEECD30021351D8E006F4411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEECD30621351E15006F4411 /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
+		BEECD30A213522B0006F4411 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				BEECD2F421351D8B006F4411 /* AppDelegate.swift */,
 				BEECD30621351E15006F4411 /* Walkthrough.storyboard */,
+				BEECD30A213522B0006F4411 /* WalkthroughViewController.swift */,
 				BEECD2FB21351D8E006F4411 /* Assets.xcassets */,
 				BEECD2FD21351D8E006F4411 /* LaunchScreen.storyboard */,
 				BEECD30021351D8E006F4411 /* Info.plist */,
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEECD2F521351D8B006F4411 /* AppDelegate.swift in Sources */,
+				BEECD30B213522B0006F4411 /* WalkthroughViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
