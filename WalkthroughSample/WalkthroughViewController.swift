@@ -27,6 +27,12 @@ final class WalkthroughViewController: UIViewController {
         super.viewWillDisappear(animated)
     }
 
+    // MARK: - IBAction
+
+    @IBAction func didTapPageControl(_ sender: UIPageControl) {
+        scrollView.setContentOffset(CGPoint(x: scrollView.bounds.size.width * CGFloat(sender.currentPage), y: 0.0), animated: true)
+    }
+
     // MARK: - KVO
 
     private var keyValueObservations = [NSKeyValueObservation]()
