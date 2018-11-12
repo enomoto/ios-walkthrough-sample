@@ -4,7 +4,7 @@ this is the walkthrough (UIScrollView + UIPageControl) screen sample app.
 
 # Created with
 
-Xcode 9.4.1
+Xcode 10.1
 
 # License
 
