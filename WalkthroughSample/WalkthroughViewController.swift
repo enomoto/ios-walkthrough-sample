@@ -27,6 +27,14 @@ final class WalkthroughViewController: UIViewController {
         super.viewWillDisappear(animated)
     }
 
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+
+        self.scrollView.setContentOffset(
+            CGPoint(x: scrollView.bounds.size.width * CGFloat(pageControl.currentPage), y: 0.0), animated: false)
+    }
+
+
     // MARK: - IBAction
 
     @IBAction func didTapPageControl(_ sender: UIPageControl) {
